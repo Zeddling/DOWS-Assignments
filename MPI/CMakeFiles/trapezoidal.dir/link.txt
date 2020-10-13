@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/trapezoidal.dir/trapezoidal/trapezoidal.cpp.o CMakeFiles/trapezoidal.dir/main.cpp.o -o trapezoidal 

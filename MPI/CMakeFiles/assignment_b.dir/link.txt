@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/assignment_b.dir/tutorial.cpp.o -o assignment_b  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmpicxx.so /usr/local/lib/libmpi.so -Wl,-rpath -Wl,/usr/local/lib -Wl,--enable-new-dtags 

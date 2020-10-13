@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/assignment.dir/trapezoidal/trapezoidal.cpp.o CMakeFiles/assignment.dir/main.cpp.o -o assignment 
