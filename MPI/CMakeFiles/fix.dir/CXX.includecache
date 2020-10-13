@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/fix.cpp
+trapezoidal/trapezoidal.h
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.h
+
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.cpp
+trapezoidal.h
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.h
+
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.h
+math.h
+/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/math.h
+iostream
+-
+

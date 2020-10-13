@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o CMakeFiles/fix.dir/fix.cpp.o -o fix 

@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment_a
+# Target rules for targets named fix
 
 # Build rule for target.
-assignment_a: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment_a
-.PHONY : assignment_a
+fix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fix
+.PHONY : fix
 
 # fast build rule for target.
-assignment_a/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/build
-.PHONY : assignment_a/fast
+fix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/build
+.PHONY : fix/fast
 
-main.o: main.cpp.o
+fix.o: fix.cpp.o
 
-.PHONY : main.o
+.PHONY : fix.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/main.cpp.o
-.PHONY : main.cpp.o
+fix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/fix.cpp.o
+.PHONY : fix.cpp.o
 
-main.i: main.cpp.i
+fix.i: fix.cpp.i
 
-.PHONY : main.i
+.PHONY : fix.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/main.cpp.i
-.PHONY : main.cpp.i
+fix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/fix.cpp.i
+.PHONY : fix.cpp.i
 
-main.s: main.cpp.s
+fix.s: fix.cpp.s
 
-.PHONY : main.s
+.PHONY : fix.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/main.cpp.s
-.PHONY : main.cpp.s
+fix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/fix.cpp.s
+.PHONY : fix.cpp.s
 
 trapezoidal/trapezoidal.o: trapezoidal/trapezoidal.cpp.o
 
@@ -175,7 +175,7 @@ trapezoidal/trapezoidal.o: trapezoidal/trapezoidal.cpp.o
 
 # target to build an object file
 trapezoidal/trapezoidal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/trapezoidal/trapezoidal.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o
 .PHONY : trapezoidal/trapezoidal.cpp.o
 
 trapezoidal/trapezoidal.i: trapezoidal/trapezoidal.cpp.i
@@ -184,7 +184,7 @@ trapezoidal/trapezoidal.i: trapezoidal/trapezoidal.cpp.i
 
 # target to preprocess a source file
 trapezoidal/trapezoidal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/trapezoidal/trapezoidal.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.i
 .PHONY : trapezoidal/trapezoidal.cpp.i
 
 trapezoidal/trapezoidal.s: trapezoidal/trapezoidal.cpp.s
@@ -193,7 +193,7 @@ trapezoidal/trapezoidal.s: trapezoidal/trapezoidal.cpp.s
 
 # target to generate assembly for a file
 trapezoidal/trapezoidal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_a.dir/build.make CMakeFiles/assignment_a.dir/trapezoidal/trapezoidal.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fix.dir/build.make CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.s
 .PHONY : trapezoidal/trapezoidal.cpp.s
 
 # Help Target
@@ -204,10 +204,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... assignment_a"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... fix"
+	@echo "... fix.o"
+	@echo "... fix.i"
+	@echo "... fix.s"
 	@echo "... trapezoidal/trapezoidal.o"
 	@echo "... trapezoidal/trapezoidal.i"
 	@echo "... trapezoidal/trapezoidal.s"
