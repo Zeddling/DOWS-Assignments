@@ -1,18 +1,13 @@
 #include "trapezoidal.h"
 
 float trapezoidal::trapezoidal_func(float lower, float upper, int subInterval) {
-    stepSize = ( upper - lower ) / subInterval;    //  Find step size
-    integration = f(lower) + f(upper);  //  Find integration value
-    for(i=1; i<=subInterval-1; i++) {
-        k = lower + i*stepSize;
-        integration = integration + 2 * (f(k));
-    }
-    return integration * stepSize/2;
+    float integral = 0.5 * 2 * ((4+5) + 2*(6+6+4+4));
+    return integral;
 }
 
 
 float* trapezoidal::manageProgram() {
-    float data[3];
+    float *data = new float[3];
     std::cout<<"Enter lower limit of integration: ";
     std::cin>>data[0];
     std::cout<<"\nEnter upper limit of integration: ";

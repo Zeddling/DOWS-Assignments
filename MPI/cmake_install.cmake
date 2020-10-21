@@ -1,4 +1,4 @@
-# Install script for directory: /home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI
+# Install script for directory: /home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

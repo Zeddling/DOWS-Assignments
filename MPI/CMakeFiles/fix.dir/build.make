@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI"
+CMAKE_SOURCE_DIR = "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI"
+CMAKE_BINARY_DIR = "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fix.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/fix.dir/flags.make
 
 CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o: CMakeFiles/fix.dir/flags.make
 CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o: trapezoidal/trapezoidal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o -c "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o -c "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/trapezoidal/trapezoidal.cpp"
 
 CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.cpp" > CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/trapezoidal/trapezoidal.cpp" > CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.i
 
 CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.cpp" -o CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/trapezoidal/trapezoidal.cpp" -o CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.s
 
 CMakeFiles/fix.dir/fix.cpp.o: CMakeFiles/fix.dir/flags.make
 CMakeFiles/fix.dir/fix.cpp.o: fix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fix.dir/fix.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/fix.cpp.o -c "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/fix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fix.dir/fix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/fix.cpp.o -c "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/fix.cpp"
 
 CMakeFiles/fix.dir/fix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fix.dir/fix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/fix.cpp" > CMakeFiles/fix.dir/fix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/fix.cpp" > CMakeFiles/fix.dir/fix.cpp.i
 
 CMakeFiles/fix.dir/fix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fix.dir/fix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/fix.cpp" -o CMakeFiles/fix.dir/fix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/fix.cpp" -o CMakeFiles/fix.dir/fix.cpp.s
 
 # Object files for target fix
 fix_OBJECTS = \
@@ -114,7 +114,7 @@ fix: CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o
 fix: CMakeFiles/fix.dir/fix.cpp.o
 fix: CMakeFiles/fix.dir/build.make
 fix: CMakeFiles/fix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable fix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable fix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/fix.dir/clean:
 .PHONY : CMakeFiles/fix.dir/clean
 
 CMakeFiles/fix.dir/depend:
-	cd "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles/fix.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles/fix.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/fix.dir/depend
 

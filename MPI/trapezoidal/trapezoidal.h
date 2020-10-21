@@ -5,8 +5,6 @@
 
 class trapezoidal{
 public:
-    int i;
-    float integration = 0.0, stepSize, k;
     float trapezoidal_func(float lower, float upper, int subInterval);
     float* manageProgram();
 };

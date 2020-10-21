@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/fix.cpp" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles/fix.dir/fix.cpp.o"
-  "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/trapezoidal/trapezoidal.cpp" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/Assignments/MPI/CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o"
+  "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/fix.cpp" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles/fix.dir/fix.cpp.o"
+  "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/trapezoidal/trapezoidal.cpp" "/home/zeddling/Documents/School/4th Year/2nd Sem/Distributed Objects/DOWS-Assignments/MPI/CMakeFiles/fix.dir/trapezoidal/trapezoidal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
