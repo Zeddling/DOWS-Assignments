@@ -1,7 +1,8 @@
 #include "trapezoidal.h"
 
-float trapezoidal::trapezoidal_func(float lower, float upper, int subInterval) {
-    float integral = 0.5 * 2 * ((4+5) + 2*(6+6+4+4));
+float trapezoidal::trapezoidal_func(float lower, float upper, int number_of_intervals) {
+    float height = ( upper - lower ) / number_of_intervals;
+    float integral = 0.5 * height * ((4+5) + 2*(6+6+4+4));
     return integral;
 }
 

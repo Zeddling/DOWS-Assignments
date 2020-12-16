@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="row">
+                    <div class="col-md">
+                        <p class="display-5 text-white">
+                            Student Dashboard Service
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="navbar-nav" id="sidebar-nav-container">
+                <li>
+                    <a href="/dashboard/home">Home</a>
+                </li>
+                <li >
+                    <a href="/dashvoard/add-student">Student Editor</a>
+                </li>
+                <li class="active">
+                    <a href="#">Upload CSV</a>
+                </li>
+                <li class="settings">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#" id="cog" ><i class="fa fa-cog fa-3x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-6">
+                            <p id="version">version 1.0</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="content" class="justify-content-center">
+            <div class="container" id="upload-manager">
+                <form th:action="@{/dashboard/upload-students}" enctype="multipart/form-data" method="post">
+                    <div class="card" id="upload-card">
+                        <div class="card-header text-center">
+                            Submit File
+                        </div>
+                        <div class="card-body">
+
+                            <div class="alert alert-danger" role="alert" th:if="${param.error}">
+                                <strong>Error:</strong>
+                                <p>Something weird happened</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="file">Upload File</label>
+                                    <input type="file" class="form-control" id="file" name="file" accept=".csv" required />
+                                </div>
+                                <div class="col">
+                                    <label for="view-btn">Upload File</label>
+                                    <button type="button" class="btn btn-primary form-control" id="view-btn">View all files</button>
+                                </div>
+                                <div class="col">
+                                    <input type="submit" class="btn btn-success form-control" placeholder="Submit" style="position:relative; top: 31px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="product-table" class="container" style="position: relative; top: 40px;"></div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="https://use.fontawesome.com/2e070bb969.js"></script>
+    <script type="text/javascript" th:src="@{/js/dashboard.js}"></script>
+</body>
+</html>

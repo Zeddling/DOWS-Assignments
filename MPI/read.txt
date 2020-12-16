@@ -1,0 +1,3 @@
+run commands on root directory:
+mpicxx main.cpp trapezoidal/trapezoidal.cpp trapezoidal/trapezoidal.h
+mpirun -np 2 ./a.out

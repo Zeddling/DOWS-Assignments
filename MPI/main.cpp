@@ -19,7 +19,6 @@ int main(int argc, char** argv) {
 
     if (rank==0) {
         //  Send array pointer to process 1
-        std::cout << "Process 0"<<std::endl;
         float *data = tr->manageProgram();
         float array[] = {data[0], data[1], data[2]};
         MPI_Send(array, 3, MPI_FLOAT, 1, 0, MPI_COMM_WORLD);
@@ -29,16 +28,15 @@ int main(int argc, char** argv) {
         std::cout<<"Received Integral: "<<integ<<std::endl;
 
     } else if(rank==1) {
-        std::cout << "Process 1"<<std::endl;
         float receive[3];
         MPI_Recv(&receive, 3, MPI_FLOAT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         std::cout<<"Received array"<<std::endl;
         for (int i = 0; i < 3; i++)
         {
-            std::cout<<receive[i];
+            std::cout<<receive[i]<<" ";
         }
         
-        float integral = tr->trapezoidal_func(receive[0], receive[1], receive[3]);
+        float integral = tr->trapezoidal_func(receive[0], receive[1], receive[2]);
         MPI_Send(&integral, 1, MPI_FLOAT, 0, 1, MPI_COMM_WORLD);
         std::cout<<"\nIntegral sent: "<<integral<<std::endl;
     }

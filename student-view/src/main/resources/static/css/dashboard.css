@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.active {
+  text-decoration: none;
+  background-color: #1e234a;
+  border-radius: 5px;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    width: 270px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #2C336B;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #2C336B;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #161935;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 20px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+}
+
+#sidebar ul li a:hover {
+  text-decoration: none;
+  background-color: #1e234a;
+  border-radius: 5px;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #161935;
+}
+
+#sidebar-nav-container {
+  padding: 10px;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #161935;
+}
+.settings{
+    position: relative;
+    left: 10px;
+    top: 370px;
+}
+#cog{
+  color: white;
+}
+#cog:hover{
+    transition: all 0.3s;
+}
+.text-muted{
+    color: white;
+}
+#version{
+    font-size: small;
+    position: relative;
+    top: 20px;
+}
+#content{
+    margin-left: 250px; /* Same as the width of the sidebar */
+    position: relative;
+    left: 7em;
+    top: 2em;
+}
+#v_hr{
+    height: 2px;
+    background-color: gray;
+    border: none;
+    width: 750px;
+    position: relative;
+    top: 1em;
+    right: 3.5em;
+}
+#upload-card{
+    width: 750px;
+    position: relative;
+    top: 40px;
+}
+#refund-card{
+  position: relative;
+  left: 13.5px;
+  width: 750px;
+}
+
+.form-textbox {
+	margin-top: 12px;
+  display: inline-block;
+  position: relative;
+}
+.textbox {
+  width: 250px;
+  padding: 6px 0;
+  font: 14px/24px "Lato", Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  border:0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  position: relative;
+
+}
+.textbox ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 99;
+}
+.textbox ~ .focus-border:before,
+.textbox ~ .focus-border:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #3399FF;
+  transition: 0.4s;
+}
+.textbox ~ .focus-border:after {
+  left: auto;
+  right: 0;
+}
+.textbox:focus ~ .focus-border:before,
+.textbox:focus ~ .focus-border:after,
+.has-content.textbox ~ .focus-border:before,
+.has-content.textbox ~ .focus-border:after {
+  width: 50%;
+  transition: 0.4s;
+}
+.textbox ~ label {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 9px;
+  color: #aaa;
+  transition: 0.3s;
+  z-index: -1;
+  letter-spacing: 0.5px;
+}
+.textbox:focus ~ label,
+.has-content.textbox ~ label {
+  top: -16px;
+  font-size: 12px;
+  color: #3399FF;
+  transition: 0.3s;
+}
+.textbox:focus {
+  outline: none;
+}
+#login-card{
+  border-radius: 5px;
+  width: 19rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#login-form{
+  justify-content: center;
+}
+#signup-card{
+  border-radius: 5px;
+  width: 27rem;
+  height: 21rem;
+  position: relative;
+  left: 100%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.form-icon{
+  position: relative;
+  left: 100px;
+  padding-bottom: 20px;
+}
+.btn-login{
+  background-color: #3399FF; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 20px;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+.btn-signup{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 2.5rem;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}

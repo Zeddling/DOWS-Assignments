@@ -5,6 +5,6 @@
 
 class trapezoidal{
 public:
-    float trapezoidal_func(float lower, float upper, int subInterval);
+    float trapezoidal_func(float lower, float upper, int number_of_intervals);
     float* manageProgram();
 };
